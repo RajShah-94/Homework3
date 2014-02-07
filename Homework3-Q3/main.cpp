@@ -12,6 +12,7 @@
 
 using namespace std;
 
+
 int main() {
 	double array [10] = {
 			0,0,0,0,0,0,0,0,0,0
@@ -20,7 +21,7 @@ int main() {
 	for (int i = 0; i<10; i++) {
 		array [i] = (double)rand()/RAND_MAX * 10;
 	}
-	cout << findMax(array, 10) << endl;
+	cout << ABC::findMax(array, 10) << endl;
 }
 
 

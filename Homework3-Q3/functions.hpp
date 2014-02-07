@@ -10,7 +10,14 @@
 
 
 
+
+
+namespace ABC{
+
 double findMax( double array [], int n) ;
+
+
+}
 
 
 #endif /* FUNCTIONS_HPP_ */

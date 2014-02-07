@@ -10,7 +10,7 @@
 
 using namespace std;
 
-double findMax( double array [], int n) {
+double ABC::findMax( double array [], int n) {
 
 	double max = 0;
 
